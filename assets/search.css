@@ -1,0 +1,65 @@
+.order-status {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    line-height: 2.5em;
+    color: #777;
+    background: #e5e5e5;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    margin: -.25em 0;
+    cursor: inherit!important;
+    white-space: nowrap;
+    max-width: 100%;
+    padding: 0px 10px;
+}
+
+.order-status.status-completed {
+    background: #c8d7e1;
+    color: #2e4453;
+}
+
+.order-status.status-on-hold {
+    background: #f8dda7;
+    color: #94660c;
+}
+
+.order-status.status-failed {
+    background: #eba3a3;
+    color: #761919;
+}
+
+.order-status.status-processing {
+    background: #c6e1c6;
+    color: #5b841b;
+}
+
+.order-status.status-trash {
+    background: #eba3a3;
+    color: #761919;
+}
+
+span.order-status.status-followup {
+    background: #fff700;
+}
+
+#smos_input_cont > h1 {
+    background: #d2d2d2;
+    padding: 10px 15px;
+}
+
+#smos_result_cont > h1 {
+    background: #d2d2d2;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+}
+
+button#smos_submit {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+textarea#smos_order_numbers_input {
+    margin-bottom: 5px;
+}
